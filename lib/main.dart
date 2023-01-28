@@ -3,7 +3,6 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-import 'src/menu.dart';
 import 'src/navigation_controls.dart';
 import 'src/web_view_stack.dart';
 
@@ -29,10 +28,9 @@ class _WebViewAppState extends State<WebViewApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tutor EAD'),
+        title: const Text('+Acesso Qualifica'),
         actions: [
           NavigationControls(controller: controller),
-          Menu(controller: controller),
         ],
         backgroundColor: Colors.orange,
       ),

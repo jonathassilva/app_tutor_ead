@@ -7,8 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:webview_in_flutter/main.dart';
+import 'package:tutor_ead/main.dart';
 
 void main() {
   testWidgets('Do nothing test', (tester) async {

@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.webview_in_flutter">
+    package="com.softpuzzle.tutor_ead">
    <application
-        android:label="webview_in_flutter"
+        android:label="Mais Acesso Qualifica"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
