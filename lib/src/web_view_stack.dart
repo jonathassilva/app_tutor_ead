@@ -19,7 +19,7 @@ class _WebViewStackState extends State<WebViewStack> {
     return Stack(
       children: [
         WebView(
-          initialUrl: 'https://maisacessoqualifica.com.br/campus',
+          initialUrl: 'https://ead.maisacessoqualifica.com.br/campus',
           onWebViewCreated: (webViewController) {
             widget.controller.complete(webViewController);
           },

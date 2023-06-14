@@ -28,11 +28,11 @@ class _WebViewAppState extends State<WebViewApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('+Acesso Qualifica'),
+        title: const Text('Mais Acesso Qualifica'),
         actions: [
           NavigationControls(controller: controller),
         ],
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.blue,
       ),
       body: WebViewStack(controller: controller),
     );

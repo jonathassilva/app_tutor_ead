@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.softpuzzle.tutor_ead">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="Mais Acesso Qualifica"
         android:name="${applicationName}"
